@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms </title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light badge-dark">
+            <h3> Sorting Visualization</h3>
+            <div class="array-inputs">
+                
+                   <span class="mt-2 ml-5">
+                    Array Size  <input id="a_size" type="range" min=20 max=150 step=1 value=60>
+                   </span>
+
+                
+                  <span class="mt-2 ml-5">
+                   Speed <input id="a_speed" type="range" min=3 max=10 step=1 value=6>
+                  </span>
+
+               
+                    <button class="btn btn-info ml-4 mt-1 " id="a_generate"> New Array</button>
+                
+            </div>
+            <div class="algos">
+                
+               &nbsp &nbsp <span class="mt-2">  Algorithms :</span>
+                <button class="btn btn-info ml-2 mt-1">Bubble</button>
+                <button class="btn btn-info ml-1 mt-1">Selection</button>
+                <button class="btn btn-info ml-1 mt-1">Insertion</button>
+                <button class="btn btn-info ml-1 mt-1">Merge</button>
+                <button class="btn btn-info ml-1 mt-1">Quick</button>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+
+        <div id="Info_Cont1">
+
+        </div>
+
+        <div id="array_container">
+
+        </div>
+
+        <div id="Info_Cont2">
+
+        </div>
+
+    </section>
+
+
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/visualizations.js"></script>
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+   
+</body>
+
+
+
+</html>
